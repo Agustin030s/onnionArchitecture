@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "W9ZD7ueAA1qlaQMlEz6IoBXY5tzv1fv4q/yBfRAv/IAjKiO//emKP8G+W4KUCryUNfD1oxNrBVma8+YX6mxgUw==",
+  "dgSpecHash": "En7GK1jc+29HnbV7Wn6Q3HQRIqJKean97cPWuMVyojYwOQCYlMFJLvrUNxJHjlAebq/OLoNCSj64ve/wBgfSpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Proyectos\\Onion_Architecture\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\sebas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\sebas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
