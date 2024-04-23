@@ -15,11 +15,13 @@
 
   <ItemGroup>
     <Folder Include="DTOs\" />
-    <Folder Include="Features\" />
+    <Folder Include="Features\Customers\Commands\DeleteCustomerCommand\" />
+    <Folder Include="Features\Customers\Commands\UpdateCustomerCommand\" />
+    <Folder Include="Features\Customers\Queries\GetAllCustomers\" />
+    <Folder Include="Features\Customers\Queries\GetCustomersById\" />
     <Folder Include="Filters\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Mappings\" />
-    <Folder Include="Wrappers\" />
   </ItemGroup>
 
 </Project>
