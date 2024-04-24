@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MgTosvqBqWc1IKmcT6WM+2BbFljkdl+Qde23msyoK7mR3mmnT6bkZMUBmlzTF9fshccflAAMF9yxi5AP3LAydA==",
+  "dgSpecHash": "yF6GBg282kDiymO2t86ZjQk9SuqKSRf+v2th2TSaVhUY6CDDu/sgBQ8sCYI3uHzXQNjsDxeJRa/u3HErAMFOiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Proyectos\\Onion_Architecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
