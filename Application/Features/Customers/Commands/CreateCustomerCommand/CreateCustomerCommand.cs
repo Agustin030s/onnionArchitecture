@@ -16,7 +16,7 @@ namespace Application.Features.Customers.Commands.CreateCustomerCommand
 
     public class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommand, Response<int>>
     {
-        public Task<Response<int>> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
+        public async Task<Response<int>> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
