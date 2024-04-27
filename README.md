@@ -7,5 +7,5 @@ Proyecto desarrollado haciendo uso de:
 * AutoMapper
 ## Arquitectura
 <p align="center">
-  <img src="https://i.postimg.cc/vTCGMR7K/Captura-de-pantalla-2024-04-27-204353.png" alt="Arquitectura onnion"  width=70% height=70%>
+  <img src="https://i.postimg.cc/Vk8dbMMV/onnion.png" alt="Arquitectura onnion"  width=50% height=50%>
 </p>
