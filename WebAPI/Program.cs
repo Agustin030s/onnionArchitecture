@@ -1,4 +1,7 @@
 using Application;
+using Persistance;
+using Shared;
+using WebAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationLayer();
+builder.Services.AddApiVersioningExtension();
+
+var configuration = builder.Configuration;
+
+builder.Services.AddPersistanceInfraestructure(configuration);
+builder.Services.AddSharedInfraestructure(configuration);
 
 var app = builder.Build();
 
@@ -22,6 +31,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseErrorHandlingMiddleware();
 
 app.MapControllers();
 

@@ -158,6 +158,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -375,12 +385,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Ardalis.Specification >= 8.0.0",
       "AutoMapper >= 13.0.1",
+      "Domain >= 1.0.0",
       "FluentValidation >= 11.9.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
       "MediatR >= 12.2.0"
@@ -418,7 +434,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sebas\\OneDrive\\Proyectos\\Onion_Architecture\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\sebas\\OneDrive\\Proyectos\\Onion_Architecture\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
