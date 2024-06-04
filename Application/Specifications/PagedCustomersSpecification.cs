@@ -18,7 +18,7 @@ namespace Application.Specifications
                 Query.Search(x => x.Name, "%" + name + "%");
 
             if (!string.IsNullOrEmpty(lastname))
-                Query.Search(x => x.Name, "%" + lastname + "%");
+                Query.Search(x => x.LastName, "%" + lastname + "%");
 
         }
     }
