@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Users\Queries\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 
